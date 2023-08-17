@@ -1,19 +1,17 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-demo",
+  "version": "1.0.0",
+  "description": "Serverless Nuxt.js Application Created By Serverless Framework",
+  "author": "Tencent Cloud, Inc.",
   "private": true,
   "scripts": {
+    "dev": "nuxt",
     "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@types/node": "^18.17.3",
-    "nuxt": "^3.6.5"
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.4.11"
-  }
+    "nuxt": "^2.14.3"
+  },
+  "devDependencies": {}
 }
